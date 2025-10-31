@@ -167,6 +167,11 @@ p.text a {
   font-style: normal;
   src: url(assets/fonts/AGENCYB.TTF);
 }
+@font-face {
+  font-family: "q";
+  font-style: normal;
+  src: url(assets/fonts/Qatar2022Arabic-Bold.ttf);
+}
 .page-header {
   height: 40vh !important;
   margin: 0 !important;
@@ -336,6 +341,14 @@ p.text a {
   .header .navbar .nav-logo .nav-logo-container img {
     height: 35px;
   }
+}
+.header .navbar .nav-logo .nav-logo-container h3 {
+  font-family: "q";
+  margin-bottom: 0;
+  margin-top: 7px;
+  background-image: linear-gradient(to right top, #41383c, #624347, #814f45, #96633c, #9b7d31);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .header .navbar .nav-logo .nav-logo-container .main-logo {
   display: block;

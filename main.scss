@@ -21,11 +21,16 @@
   .font-en {
     font-family: 'ar';
   }
-  @font-face {
+@font-face {
     font-family: 'num';
     font-style: normal;
     src: url(assets/fonts/AGENCYB.TTF);
-  }
+}
+@font-face {
+    font-family: 'q';
+    font-style: normal;
+    src: url(assets/fonts/Qatar2022Arabic-Bold.ttf);
+}
 //-------- [ End Fonts ] --------
 
 // --------------------------------
